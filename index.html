@@ -323,7 +323,7 @@
 
     /* ── STATS BAR ───────────────────────────────── */
     .stats-bar {
-      background: var(--navy);
+      background: linear-gradient(135deg, var(--blue) 0%, var(--navy) 50%, var(--navy-light) 100%);
       padding: 28px 0;
     }
     .stats-inner {
@@ -336,6 +336,7 @@
       line-height: 1;
     }
     .stat-num span { color: var(--blue-light); }
+    .stat-num .star { font-size: 20px; margin-left: 6px; vertical-align: middle; }
     .stat-label { font-size: 13px; color: rgba(255,255,255,0.6); margin-top: 4px; }
     .stat-divider { width: 1px; height: 48px; background: rgba(255,255,255,0.12); }
 
@@ -864,7 +865,7 @@
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
-          <div class="stat-num">4.9<span>★</span></div>
+          <div class="stat-num">4.9<span class="star">★</span></div>
           <div class="stat-label">Average Rating</div>
         </div>
         <div class="stat-divider"></div>
