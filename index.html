@@ -362,13 +362,13 @@
     }
     .section-title-row h2 { margin-bottom: 0; }
     .steps-grid {
-      display: grid; grid-template-columns: repeat(3, 1fr);
+      display: grid; grid-template-columns: repeat(4, 1fr);
       gap: 32px; position: relative;
     }
     .steps-grid::before {
       content: '';
       position: absolute;
-      top: 44px; left: calc(16.67% + 24px); right: calc(16.67% + 24px);
+      top: 44px; left: calc(12.5% + 24px); right: calc(12.5% + 24px);
       height: 2px;
       background: linear-gradient(90deg, var(--blue) 0%, var(--purple) 100%);
       z-index: 0;
@@ -679,7 +679,7 @@
       .hero-actions { justify-content: center; }
       .hero-social { justify-content: center; }
       .hero-visual { display: none; }
-      .steps-grid { grid-template-columns: 1fr; }
+      .steps-grid { grid-template-columns: 1fr 1fr; }
       .steps-grid::before { display: none; }
       .audiences-grid { grid-template-columns: 1fr; }
       .features-grid { grid-template-columns: 1fr 1fr; }
@@ -693,6 +693,7 @@
     }
     @media (max-width: 600px) {
       .features-grid { grid-template-columns: 1fr; }
+      .steps-grid { grid-template-columns: 1fr; }
       .footer-grid { grid-template-columns: 1fr; }
       .audience-card { padding: 36px 28px; }
     }
@@ -865,6 +866,12 @@
           <div class="step-icon">🚀</div>
           <h3>Collab &amp; Grow</h3>
           <p>Connect, negotiate, and run campaigns — all in one place. Track results, manage briefs, and pay creators safely through Vira.</p>
+        </div>
+        <div class="step-card fade-up fade-up-delay-3">
+          <div class="step-num">4</div>
+          <div class="step-icon">📊</div>
+          <h3>Track &amp; Measure</h3>
+          <p>Monitor campaign performance in real time. See reach, engagement, and ROI — so you know exactly what's working.</p>
         </div>
       </div>
     </div>
