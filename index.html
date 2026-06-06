@@ -402,6 +402,13 @@
       margin-bottom: 10px;
     }
     .step-card p { font-size: 14px; color: var(--text-body); line-height: 1.6; }
+    .step-text-link {
+      display: inline-flex; align-items: center; gap: 5px;
+      margin-top: 14px; font-size: 13px; font-weight: 600;
+      color: var(--navy); text-decoration: none;
+      transition: gap 0.2s, color 0.2s;
+    }
+    .step-text-link:hover { color: var(--purple); gap: 8px; }
 
     /* ── FOR BRANDS & INFLUENCERS ────────────────── */
     .audiences {
@@ -845,33 +852,35 @@
     <div class="container">
       <div class="section-header fade-up">
         <div class="tag"><span class="dot"></span>Simple &amp; Fast</div>
-        <h2>Up and running in minutes</h2>
-        <p>Whether you're a brand looking for reach or a creator looking for deals — Vira makes the whole process effortless.</p>
+        <h2>For Brands</h2>
+        <p>Discover, post and connect with influencers — all in one place.</p>
       </div>
       <div class="steps-grid">
         <div class="step-card fade-up fade-up-delay-1">
           <div class="step-num">1</div>
-          <div class="step-icon">📋</div>
-          <h3>Create Your Profile</h3>
-          <p>Tell us about your brand or content niche. Our AI learns what makes you unique and what kind of partnerships will work best for you.</p>
+          <div class="step-icon">🔍</div>
+          <h3>Search without signing up</h3>
+          <p>Browse scraped Instagram profiles by keyword, niche, or handle. See follower counts, engagement rates, and bios instantly.</p>
+          <a href="#" class="step-text-link">Try the search →</a>
         </div>
         <div class="step-card fade-up fade-up-delay-2">
           <div class="step-num">2</div>
-          <div class="step-icon">🤖</div>
-          <h3>AI Finds Your Match</h3>
-          <p>Our smart matching engine analyses audience data, engagement rates, location, and brand values to surface the best-fit partners — instantly.</p>
+          <div class="step-icon">📝</div>
+          <h3>Describe your campaign</h3>
+          <p>Enter your campaign brief. VIRA's AI scores every creator against your specific goals and tone.</p>
         </div>
         <div class="step-card fade-up fade-up-delay-3">
           <div class="step-num">3</div>
-          <div class="step-icon">🚀</div>
-          <h3>Collab &amp; Grow</h3>
-          <p>Connect, negotiate, and run campaigns — all in one place. Track results, manage briefs, and pay creators safely through Vira.</p>
+          <div class="step-icon">🎯</div>
+          <h3>Open a profile, get a score</h3>
+          <p>Click any creator to generate an AI summary and fit score with match reasons. Cached so you're never billed twice.</p>
         </div>
         <div class="step-card fade-up fade-up-delay-3">
           <div class="step-num">4</div>
-          <div class="step-icon">📊</div>
-          <h3>Track &amp; Measure</h3>
-          <p>Monitor campaign performance in real time. See reach, engagement, and ROI — so you know exactly what's working.</p>
+          <div class="step-icon">📣</div>
+          <h3>Post a campaign, get applicants</h3>
+          <p>Publish your brief. Influencers apply with one tap. Review ranked applicants — scored and sorted automatically.</p>
+          <a href="#" class="step-text-link">Create campaign →</a>
         </div>
       </div>
     </div>
